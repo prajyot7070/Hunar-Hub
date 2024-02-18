@@ -1,67 +1,48 @@
 
-# jaya_s_application3
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+Hunar-Hub
+=============================================================
 
-### System requirements
+## Introduction ##
+HunarHub is a revolutionary platform designed to empower daily wage workers and laborers by connecting them directly with users who require their services, eliminating intermediaries and fostering transparent and equitable employment opportunities.
+Through our innovative app, workers can showcase their skills, connect with nearby users, and access learning resources through our Gen AI chatbot, empowering them to upskill and improve their livelihoods.
 
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
 
-### Figma design guidelines for better UI accuracy
+## Mission ##
+Our mission at HunarHub is to empower daily wage workers and laborers by providing them with a platform to showcase their skills, connect with users directly, and access opportunities for upskilling and career advancement.
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
 
-### Check the UI of the entire app
+## SDG's Achieved ##
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+* No Poverty
+* Decent Work and Economic Growth
+* Quality Education
 
-### Application structure
 
-After successful build, your application structure should look like this:
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens 
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
+## Problem Statement ##
 
-### How to format your code?
+<details> 
+    <summary> Financial instability </summary> 
+    <p>Daily wage workers often face unpredictable income and lack financial security due to irregular work opportunities.</p>
+</details>
+<details>  
+    <summary> Exploitation by intermediaries </summary> 
+    <p>Many workers are subjected to exploitation by middlemen who take a significant portion of their earnings, leaving them with meager wages.</p>
+</details>
+<details>   
+    <summary> Limited access to skill development </summary> 
+    <p>Without resources or opportunities for training and upskilling, workers may struggle to improve their skills and advance in their careers.</p> 
+</details>
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+## Solution Overview ##
 
-### How you can improve code readability?
+Worker registration and service listing
+	->Daily wage workers can easily register on HunarHub and list the services they provide, along with their skills and qualifications.
+	User search functionality
+	->Users can efficiently search for workers based on their requirements, such as location, skills, and availability, ensuring they find the right match for their needs.
+	Geolocation feature for finding nearest workers
+	->HunarHub utilizes geolocation technology to display the nearest available workers to users, facilitating quick and convenient hiring based on proximity.
+	Gen AI chatbot for upskilling workers
+	->The Gen AI chatbot embedded within HunarHub offers personalized learning experiences for workers, providing them with access to upskilling resources, tutorials, and guidance to enhance their skills and improve their employability.
+	Regional language support and voice interface (ye future scope mein dalenge)
+	->To ensure inclusivity and accessibility, HunarHub offers support for regional languages and a voice interface, enabling workers who may not be proficient in written communication to easily navigate the app and interact with the chatbot.
 
-Resolve the errors and warnings that are shown in the application.
-
-### Libraries and tools used
-
-- BLoC - State management
-  https://bloclibrary.dev
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
-
-### Support
-
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
