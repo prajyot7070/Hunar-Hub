@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "465857653795",
+    "project_id": "hunar-d369d",
+    "storage_bucket": "hunar-d369d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465857653795:android:f6034765ff6b1257115596",
+        "android_client_info": {
+          "package_name": "com.jayasapplication.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQr6oaX8LdFljyo2l7G7hF5inHlML0_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
