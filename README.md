@@ -27,7 +27,6 @@ Check the UI of all the app screens from a single place by setting up the 'initi
 ### Application structure
 
 After successful build, your application structure should look like this:
-
 ```
 .
 ├── android                         - It contains files required to run the application on an Android platform.
