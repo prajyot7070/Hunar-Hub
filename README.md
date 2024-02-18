@@ -35,14 +35,16 @@ Our mission at HunarHub is to empower daily wage workers and laborers by providi
 
 ## Solution Overview ##
 
-Worker registration and service listing
-	->Daily wage workers can easily register on HunarHub and list the services they provide, along with their skills and qualifications.
-	User search functionality
-	->Users can efficiently search for workers based on their requirements, such as location, skills, and availability, ensuring they find the right match for their needs.
-	Geolocation feature for finding nearest workers
-	->HunarHub utilizes geolocation technology to display the nearest available workers to users, facilitating quick and convenient hiring based on proximity.
-	Gen AI chatbot for upskilling workers
-	->The Gen AI chatbot embedded within HunarHub offers personalized learning experiences for workers, providing them with access to upskilling resources, tutorials, and guidance to enhance their skills and improve their employability.
-	Regional language support and voice interface (ye future scope mein dalenge)
-	->To ensure inclusivity and accessibility, HunarHub offers support for regional languages and a voice interface, enabling workers who may not be proficient in written communication to easily navigate the app and interact with the chatbot.
+* Worker registration and service listing <br />
+Daily wage workers can easily register on HunarHub and list the services they provide, along with their skills and qualifications.<br />
+* User search functionality<br />
+Users can efficiently search for workers based on their requirements, such as location, skills, and availability, ensuring they find the right match for their needs.<br />
+* Geolocation feature for finding nearest workers<br />
+HunarHub utilizes geolocation technology to display the nearest available workers to users, facilitating quick and convenient hiring based on proximity.<br />
+* Gen AI chatbot for upskilling workers <br />
+The Gen AI chatbot embedded within HunarHub offers personalized learning experiences for workers, providing them with access to upskilling resources, tutorials, and guidance to enhance their skills and improve their employability.<br />
+
+ ## Future Scope ##
+* Regional language support and voice interface (ye future scope mein dalenge) <br />
+To ensure inclusivity and accessibility, HunarHub offers support for regional languages and a voice interface, enabling workers who may not be proficient in written communication to easily navigate the app and interact with the chatbot.
 
