@@ -23,7 +23,7 @@ class _WorkerLearnerPageState extends State<WorkerLearnerPage> {
 
   List<Map<String, String>> messages = [];
   final String OpenAiKey =
-      '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'; // Changed to final instead of const
+      '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'; // Changed to final instead of const
 
   Future<String> chatGPTAPI(String prompt) async {
     messages.add({
